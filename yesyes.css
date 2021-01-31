@@ -1,0 +1,110 @@
+#prof
+{
+position: absolute;
+left: 20px;
+top: 241px;
+width: 859px;
+height: 38px;
+}
+body { 
+    width: 80%; 
+    margin: 1em auto; 
+    background-color: #faf2e4;
+    font-family: sans-serif;
+    
+}
+.copyright {
+    text-align: center;
+    font-family: "Verdana", sans-serif;
+    color: #c23d1c;
+    font-size: 9.0px;
+    line-height: 1.33em;
+    margin: 0.0px 0.0px 0.0.px 0.0px;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size:150%;
+    color: #4ea116;
+    margin-top: 2.5em;
+    border-top: 1px solid;
+    border-left: 3px solid;
+    padding-left: 1em;
+  }
+h2 {
+      font: italic;
+    color: #a50e0e;  
+    font-size: xx-large;
+  }
+  header {
+    height: 15em;
+    background-color:white;
+    opacity: 0.7;
+    text-align: center;
+    padding: 3em 1em 2em 1em;
+    background-image: url(pew.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  header h2 {
+    margin-top: 1.5em;
+  }
+footer {
+    border-top: 1px solid #373c3f;
+    text-align: center;
+    padding-top: 1em;
+    color: #775815;
+    }
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-right: .5em;
+  }
+a { 
+    text-decoration: none; 
+  }
+a:link { 
+    color: maroon; 
+  }
+a:hover {
+    text-decoration: underline;
+   }
+a:active {
+    color: red;
+    background-color: #ffd9d9;
+   }
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+html {
+    box-sizing: border-box;
+   }
+* {
+    box-sizing: inherit;
+   }
+main {
+     margin: 2.5%;
+     padding: 1em;
+     border: double 4px #eaddc4;
+     border-radius: 25px;
+   }
+/*nav {
+     width: auto;
+     height: auto;
+     background-color: white;
+   }*/
+nav ul {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+   }
+nav ul li a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: .5em;
+   }
